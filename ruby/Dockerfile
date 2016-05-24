@@ -18,4 +18,6 @@ rm -rf /usr/share/man/* && \
 rm -rf /var/cache/debconf/*-old && \
 rm -rf /var/lib/apt/lists/*
 
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
 CMD ["bin/bash"]
