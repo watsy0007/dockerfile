@@ -1,4 +1,4 @@
-FROM watsy0007/ruby:2.3.0
+FROM zhulux/ruby:2.3.0
 MAINTAINER watsy0007@mail.com
 
 ENV BUNDLER_VERSION 1.12.4

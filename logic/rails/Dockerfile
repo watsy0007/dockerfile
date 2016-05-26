@@ -1,4 +1,4 @@
-FROM watsy0007/rails:4.2.6
+FROM zhulux/rails:4.2.6
 
 RUN apt-get update && \
     apt-get install git npm build-essential nodejs-legacy pdftk poppler-utils libpoppler-dev --no-install-recommends -y && \
